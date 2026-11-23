@@ -1,0 +1,37 @@
+# Dependências e artefatos de build
+node_modules/
+dist/
+build/
+target/
+**/target/
+coverage/
+
+# Cypress (artefatos de execução)
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+cypress/results/
+
+# Python
+**/__pycache__/
+**/.venv/
+**/venv/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Segredos e configuração local
+.env
+.env.*
+!**/.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# IDE / SO / logs
+.idea/
+.vscode/
+.settings/
+.DS_Store
+*.log
