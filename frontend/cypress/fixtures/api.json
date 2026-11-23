@@ -1,0 +1,1134 @@
+{
+  "credentials": {
+    "password": "SenhaSegura123"
+  },
+  "users": {
+    "producer": {
+      "id": "11111111-1111-4111-8111-111111111111",
+      "name": "Mariana Costa",
+      "email": "produtor@agroclima.com",
+      "phone": "5581999998888",
+      "organization": "Fazenda São Francisco",
+      "jobTitle": "Produtora",
+      "roleKey": "PRODUCER",
+      "role": "Produtor/Exportador",
+      "status": "Ativo",
+      "createdAt": "2026-01-10T12:00:00Z",
+      "lastLoginAt": "2026-11-23T08:40:00Z",
+      "permissionKeys": [
+        "overview.view",
+        "plantations.manage",
+        "monitoring.view",
+        "analytics.view",
+        "reports.view"
+      ]
+    },
+    "analyst": {
+      "id": "22222222-2222-4222-8222-222222222222",
+      "name": "Rafael Nunes",
+      "email": "analista@agroclima.com",
+      "phone": "5581999998888",
+      "organization": "AgroClima Analytics",
+      "jobTitle": "Analista de dados",
+      "roleKey": "ANALYST",
+      "role": "Analista de Dados",
+      "status": "Ativo",
+      "createdAt": "2026-01-10T12:00:00Z",
+      "lastLoginAt": "2026-11-23T08:55:00Z",
+      "permissionKeys": [
+        "overview.view",
+        "plantations.read.all",
+        "monitoring.view",
+        "analytics.view",
+        "reports.view",
+        "integrations.manage",
+        "models.manage"
+      ]
+    },
+    "admin": {
+      "id": "33333333-3333-4333-8333-333333333333",
+      "name": "Carlos Almeida",
+      "email": "admin@agroclima.com",
+      "phone": "5581999998888",
+      "organization": "AgroClima Cloud",
+      "jobTitle": "Administrador",
+      "roleKey": "ADMIN",
+      "role": "Administrador",
+      "status": "Ativo",
+      "createdAt": "2026-01-10T12:00:00Z",
+      "lastLoginAt": "2026-11-23T09:00:00Z",
+      "permissionKeys": [
+        "overview.view",
+        "plantations.manage",
+        "plantations.read.all",
+        "monitoring.view",
+        "analytics.view",
+        "models.manage",
+        "reports.view",
+        "users.manage",
+        "rbac.manage",
+        "security.manage",
+        "logs.read",
+        "settings.manage",
+        "design.manage",
+        "integrations.manage"
+      ]
+    },
+    "blocked": {
+      "id": "44444444-4444-4444-8444-444444444444",
+      "name": "João Pereira",
+      "email": "joao@agroclima.com",
+      "phone": "5581999998888",
+      "organization": "Sítio Boa Esperança",
+      "jobTitle": "Produtor",
+      "roleKey": "PRODUCER",
+      "role": "Produtor/Exportador",
+      "status": "Bloqueado",
+      "createdAt": "2026-01-10T12:00:00Z",
+      "lastLoginAt": "2026-11-18T16:20:00Z",
+      "permissionKeys": [
+        "overview.view",
+        "plantations.manage",
+        "monitoring.view",
+        "analytics.view",
+        "reports.view"
+      ]
+    }
+  },
+  "usersList": [
+    {
+      "id": "11111111-1111-4111-8111-111111111111",
+      "name": "Mariana Costa",
+      "email": "produtor@agroclima.com",
+      "phone": "5581999998888",
+      "organization": "Fazenda São Francisco",
+      "jobTitle": "Produtora",
+      "roleKey": "PRODUCER",
+      "role": "Produtor/Exportador",
+      "status": "Ativo",
+      "createdAt": "2026-01-10T12:00:00Z",
+      "lastLoginAt": "2026-11-23T08:40:00Z",
+      "permissionKeys": [
+        "overview.view",
+        "plantations.manage",
+        "monitoring.view",
+        "analytics.view",
+        "reports.view"
+      ]
+    },
+    {
+      "id": "22222222-2222-4222-8222-222222222222",
+      "name": "Rafael Nunes",
+      "email": "analista@agroclima.com",
+      "phone": "5581999998888",
+      "organization": "AgroClima Analytics",
+      "jobTitle": "Analista de dados",
+      "roleKey": "ANALYST",
+      "role": "Analista de Dados",
+      "status": "Ativo",
+      "createdAt": "2026-01-10T12:00:00Z",
+      "lastLoginAt": "2026-11-23T08:55:00Z",
+      "permissionKeys": [
+        "overview.view",
+        "plantations.read.all",
+        "monitoring.view",
+        "analytics.view",
+        "reports.view",
+        "integrations.manage",
+        "models.manage"
+      ]
+    },
+    {
+      "id": "33333333-3333-4333-8333-333333333333",
+      "name": "Carlos Almeida",
+      "email": "admin@agroclima.com",
+      "phone": "5581999998888",
+      "organization": "AgroClima Cloud",
+      "jobTitle": "Administrador",
+      "roleKey": "ADMIN",
+      "role": "Administrador",
+      "status": "Ativo",
+      "createdAt": "2026-01-10T12:00:00Z",
+      "lastLoginAt": "2026-11-23T09:00:00Z",
+      "permissionKeys": [
+        "overview.view",
+        "plantations.manage",
+        "plantations.read.all",
+        "monitoring.view",
+        "analytics.view",
+        "models.manage",
+        "reports.view",
+        "users.manage",
+        "rbac.manage",
+        "security.manage",
+        "logs.read",
+        "settings.manage",
+        "design.manage",
+        "integrations.manage"
+      ]
+    },
+    {
+      "id": "44444444-4444-4444-8444-444444444444",
+      "name": "João Pereira",
+      "email": "joao@agroclima.com",
+      "phone": "5581999998888",
+      "organization": "Sítio Boa Esperança",
+      "jobTitle": "Produtor",
+      "roleKey": "PRODUCER",
+      "role": "Produtor/Exportador",
+      "status": "Bloqueado",
+      "createdAt": "2026-01-10T12:00:00Z",
+      "lastLoginAt": "2026-11-18T16:20:00Z",
+      "permissionKeys": [
+        "overview.view",
+        "plantations.manage",
+        "monitoring.view",
+        "analytics.view",
+        "reports.view"
+      ]
+    }
+  ],
+  "settings": {
+    "general": {
+      "systemName": "AgroClima Cloud",
+      "region": "Petrolina / Juazeiro",
+      "institutionalInfo": "Projeto Integrador — Análise e Desenvolvimento de Sistemas",
+      "defaultVariety": "Uva Itália"
+    },
+    "appearance": {
+      "theme": "light"
+    },
+    "design": {
+      "light": {
+        "primary": "#167c55",
+        "primaryHover": "#116d4a",
+        "secondary": "#0b3024",
+        "background": "#f5f8f6",
+        "surface": "#ffffff",
+        "text": "#192923",
+        "textMuted": "#6d7d76",
+        "border": "#e2e9e5",
+        "button": "#167c55",
+        "buttonText": "#ffffff"
+      },
+      "dark": {
+        "primary": "#5fc28d",
+        "primaryHover": "#116d4a",
+        "secondary": "#d4e9dc",
+        "background": "#101a15",
+        "surface": "#1a2922",
+        "text": "#e7f0ea",
+        "textMuted": "#a8b9b0",
+        "border": "#34483d",
+        "button": "#5fc28d",
+        "buttonText": "#ffffff"
+      },
+      "typography": {
+        "bodyFont": "dm-sans",
+        "headingFont": "manrope",
+        "fontScale": 100
+      },
+      "components": {
+        "cardRadius": 15,
+        "buttonRadius": 9,
+        "borderWidth": 1,
+        "cardShadow": "soft"
+      }
+    },
+    "notifications": {
+      "climateAlerts": true,
+      "systemAlerts": true,
+      "emailSummary": false
+    },
+    "security": {
+      "strongPasswords": true,
+      "requireMfa": false,
+      "notifyNewLogin": false,
+      "lockAfterFailures": true,
+      "sessionTimeout": "30"
+    }
+  },
+  "publicSettings": {
+    "general": {
+      "systemName": "AgroClima Cloud",
+      "region": "Petrolina / Juazeiro",
+      "institutionalInfo": "Projeto Integrador — Análise e Desenvolvimento de Sistemas",
+      "defaultVariety": "Uva Itália"
+    },
+    "appearance": {
+      "theme": "light"
+    },
+    "design": {
+      "light": {
+        "primary": "#167c55",
+        "primaryHover": "#116d4a",
+        "secondary": "#0b3024",
+        "background": "#f5f8f6",
+        "surface": "#ffffff",
+        "text": "#192923",
+        "textMuted": "#6d7d76",
+        "border": "#e2e9e5",
+        "button": "#167c55",
+        "buttonText": "#ffffff"
+      },
+      "dark": {
+        "primary": "#5fc28d",
+        "primaryHover": "#116d4a",
+        "secondary": "#d4e9dc",
+        "background": "#101a15",
+        "surface": "#1a2922",
+        "text": "#e7f0ea",
+        "textMuted": "#a8b9b0",
+        "border": "#34483d",
+        "button": "#5fc28d",
+        "buttonText": "#ffffff"
+      },
+      "typography": {
+        "bodyFont": "dm-sans",
+        "headingFont": "manrope",
+        "fontScale": 100
+      },
+      "components": {
+        "cardRadius": 15,
+        "buttonRadius": 9,
+        "borderWidth": 1,
+        "cardShadow": "soft"
+      }
+    }
+  },
+  "varieties": [
+    {
+      "id": "aaaaaaaa-aaaa-4aaa-8aaa-000000000001",
+      "name": "Uva Itália",
+      "category": "Uva de mesa",
+      "active": true
+    },
+    {
+      "id": "aaaaaaaa-aaaa-4aaa-8aaa-000000000002",
+      "name": "Crimson Seedless",
+      "category": "Sem sementes",
+      "active": true
+    },
+    {
+      "id": "aaaaaaaa-aaaa-4aaa-8aaa-000000000003",
+      "name": "Thompson Seedless",
+      "category": "Sem sementes",
+      "active": true
+    },
+    {
+      "id": "aaaaaaaa-aaaa-4aaa-8aaa-000000000004",
+      "name": "Sweet Globe",
+      "category": "Sem sementes",
+      "active": true
+    },
+    {
+      "id": "aaaaaaaa-aaaa-4aaa-8aaa-000000000005",
+      "name": "Uva Vitória",
+      "category": "Sem sementes",
+      "active": true
+    }
+  ],
+  "plantations": [
+    {
+      "id": "bbbbbbbb-bbbb-4bbb-8bbb-000000000001",
+      "ownerId": "11111111-1111-4111-8111-111111111111",
+      "ownerName": "Mariana Costa",
+      "variety": "Uva Itália",
+      "quantity": 1200,
+      "field": "Talhão Norte",
+      "notes": "Primeira safra da área",
+      "status": "Em cultivo",
+      "plantedAt": "2026-08-15T12:00:00Z",
+      "harvestedAt": null,
+      "createdAt": "2026-08-15T12:00:00Z",
+      "archivedAt": null
+    },
+    {
+      "id": "bbbbbbbb-bbbb-4bbb-8bbb-000000000002",
+      "ownerId": "11111111-1111-4111-8111-111111111111",
+      "ownerName": "Mariana Costa",
+      "variety": "Crimson Seedless",
+      "quantity": 850,
+      "field": "Talhão Sul",
+      "notes": "",
+      "status": "Em cultivo",
+      "plantedAt": "2026-09-02T12:00:00Z",
+      "harvestedAt": null,
+      "createdAt": "2026-09-02T12:00:00Z",
+      "archivedAt": null
+    },
+    {
+      "id": "bbbbbbbb-bbbb-4bbb-8bbb-000000000003",
+      "ownerId": "11111111-1111-4111-8111-111111111111",
+      "ownerName": "Mariana Costa",
+      "variety": "Thompson Seedless",
+      "quantity": 600,
+      "field": "Talhão Leste",
+      "notes": "Colheita antecipada",
+      "status": "Colhida",
+      "plantedAt": "2026-05-10T12:00:00Z",
+      "harvestedAt": "2026-10-20T12:00:00Z",
+      "createdAt": "2026-05-10T12:00:00Z",
+      "archivedAt": null
+    }
+  ],
+  "dashboardSummary": {
+    "climate": {
+      "available": true,
+      "source": "ThingSpeak",
+      "channelId": "3141592",
+      "latestAt": "2026-11-23T09:00:00Z",
+      "records": 3,
+      "resolution": "raw",
+      "metrics": {
+        "temperature": {
+          "current": 27.4,
+          "average": 24.6,
+          "minimum": 21.2,
+          "maximum": 27.4,
+          "unit": "°C",
+          "samples": 3
+        },
+        "humidity": {
+          "current": 64.0,
+          "average": 70.7,
+          "minimum": 64.0,
+          "maximum": 78.0,
+          "unit": "%",
+          "samples": 3
+        }
+      },
+      "series": [
+        {
+          "timestamp": "2026-11-23T08:00:00Z",
+          "values": {
+            "temperature": 21.2,
+            "humidity": 78.0
+          },
+          "qualityStatus": "VALID"
+        },
+        {
+          "timestamp": "2026-11-23T08:30:00Z",
+          "values": {
+            "temperature": 25.1,
+            "humidity": 70.0
+          },
+          "qualityStatus": "VALID"
+        },
+        {
+          "timestamp": "2026-11-23T09:00:00Z",
+          "values": {
+            "temperature": 27.4,
+            "humidity": 64.0
+          },
+          "qualityStatus": "VALID"
+        }
+      ],
+      "rejectedRecords": 0,
+      "message": null
+    },
+    "plantations": {
+      "totalPlantations": 3,
+      "growing": 2,
+      "harvested": 1,
+      "archived": 0,
+      "totalPlants": 2650,
+      "byVariety": [
+        {
+          "variety": "Uva Itália",
+          "plantations": 1,
+          "plants": 1200,
+          "growing": 1,
+          "harvested": 0
+        },
+        {
+          "variety": "Crimson Seedless",
+          "plantations": 1,
+          "plants": 850,
+          "growing": 1,
+          "harvested": 0
+        },
+        {
+          "variety": "Thompson Seedless",
+          "plantations": 1,
+          "plants": 600,
+          "growing": 0,
+          "harvested": 1
+        }
+      ]
+    },
+    "sources": [
+      {
+        "source": "API Java",
+        "available": true,
+        "configured": true,
+        "message": "Modelos, plantações e autenticação disponíveis."
+      },
+      {
+        "source": "ThingSpeak",
+        "available": true,
+        "configured": true,
+        "message": "Canal climático 3141592 sincronizado."
+      }
+    ]
+  },
+  "analystDashboard": {
+    "summary": {
+      "climate": {
+        "available": true,
+        "source": "ThingSpeak",
+        "channelId": "3141592",
+        "latestAt": "2026-11-23T09:00:00Z",
+        "records": 3,
+        "resolution": "raw",
+        "metrics": {
+          "temperature": {
+            "current": 27.4,
+            "average": 24.6,
+            "minimum": 21.2,
+            "maximum": 27.4,
+            "unit": "°C",
+            "samples": 3
+          },
+          "humidity": {
+            "current": 64.0,
+            "average": 70.7,
+            "minimum": 64.0,
+            "maximum": 78.0,
+            "unit": "%",
+            "samples": 3
+          }
+        },
+        "series": [
+          {
+            "timestamp": "2026-11-23T08:00:00Z",
+            "values": {
+              "temperature": 21.2,
+              "humidity": 78.0
+            },
+            "qualityStatus": "VALID"
+          },
+          {
+            "timestamp": "2026-11-23T08:30:00Z",
+            "values": {
+              "temperature": 25.1,
+              "humidity": 70.0
+            },
+            "qualityStatus": "VALID"
+          },
+          {
+            "timestamp": "2026-11-23T09:00:00Z",
+            "values": {
+              "temperature": 27.4,
+              "humidity": 64.0
+            },
+            "qualityStatus": "VALID"
+          }
+        ],
+        "rejectedRecords": 0,
+        "message": null
+      },
+      "plantations": {
+        "totalPlantations": 3,
+        "growing": 2,
+        "harvested": 1,
+        "archived": 0,
+        "totalPlants": 2650,
+        "byVariety": [
+          {
+            "variety": "Uva Itália",
+            "plantations": 1,
+            "plants": 1200,
+            "growing": 1,
+            "harvested": 0
+          },
+          {
+            "variety": "Crimson Seedless",
+            "plantations": 1,
+            "plants": 850,
+            "growing": 1,
+            "harvested": 0
+          },
+          {
+            "variety": "Thompson Seedless",
+            "plantations": 1,
+            "plants": 600,
+            "growing": 0,
+            "harvested": 1
+          }
+        ]
+      },
+      "sources": [
+        {
+          "source": "API Java",
+          "available": true,
+          "configured": true,
+          "message": "Modelos, plantações e autenticação disponíveis."
+        },
+        {
+          "source": "ThingSpeak",
+          "available": true,
+          "configured": true,
+          "message": "Canal climático 3141592 sincronizado."
+        }
+      ]
+    },
+    "quality": {
+      "available": true,
+      "totalRecords": 120,
+      "validRecords": 112,
+      "reviewRecords": 6,
+      "rejectedRecords": 2,
+      "completenessPercent": 93.3
+    },
+    "comparison": {
+      "available": true,
+      "climateMetrics": {
+        "temperature": {
+          "current": 27.4,
+          "average": 24.6,
+          "minimum": 21.2,
+          "maximum": 27.4,
+          "unit": "°C",
+          "samples": 3
+        },
+        "humidity": {
+          "current": 64.0,
+          "average": 70.7,
+          "minimum": 64.0,
+          "maximum": 78.0,
+          "unit": "%",
+          "samples": 3
+        }
+      },
+      "plantationsByVariety": [
+        {
+          "variety": "Uva Itália",
+          "plantations": 1,
+          "plants": 1200,
+          "growing": 1,
+          "harvested": 0
+        },
+        {
+          "variety": "Crimson Seedless",
+          "plantations": 1,
+          "plants": 850,
+          "growing": 1,
+          "harvested": 0
+        },
+        {
+          "variety": "Thompson Seedless",
+          "plantations": 1,
+          "plants": 600,
+          "growing": 0,
+          "harvested": 1
+        }
+      ],
+      "limitation": "O clima é agregado por canal e não é associado a variedades."
+    },
+    "generatedAt": "2026-11-23T09:05:00Z"
+  },
+  "climate": {
+    "available": true,
+    "source": "ThingSpeak",
+    "channelId": "3141592",
+    "latestAt": "2026-11-23T09:00:00Z",
+    "records": 3,
+    "resolution": "raw",
+    "metrics": {
+      "temperature": {
+        "current": 27.4,
+        "average": 24.6,
+        "minimum": 21.2,
+        "maximum": 27.4,
+        "unit": "°C",
+        "samples": 3
+      },
+      "humidity": {
+        "current": 64.0,
+        "average": 70.7,
+        "minimum": 64.0,
+        "maximum": 78.0,
+        "unit": "%",
+        "samples": 3
+      }
+    },
+    "series": [
+      {
+        "timestamp": "2026-11-23T08:00:00Z",
+        "values": {
+          "temperature": 21.2,
+          "humidity": 78.0
+        },
+        "qualityStatus": "VALID"
+      },
+      {
+        "timestamp": "2026-11-23T08:30:00Z",
+        "values": {
+          "temperature": 25.1,
+          "humidity": 70.0
+        },
+        "qualityStatus": "VALID"
+      },
+      {
+        "timestamp": "2026-11-23T09:00:00Z",
+        "values": {
+          "temperature": 27.4,
+          "humidity": 64.0
+        },
+        "qualityStatus": "VALID"
+      }
+    ],
+    "rejectedRecords": 0,
+    "message": null
+  },
+  "forecast": {
+    "available": true,
+    "model": "Regressão linear (estatístico)",
+    "message": "Projeção baseada no histórico real da estação.",
+    "predictions": [
+      {
+        "date": "2026-11-24",
+        "value": 28.2
+      },
+      {
+        "date": "2026-11-25",
+        "value": 29.0
+      }
+    ],
+    "modelKind": "statistical",
+    "horizonDays": 2
+  },
+  "modelsForecast": {
+    "available": true,
+    "model": "Random Forest",
+    "modelKind": "ml",
+    "modelId": "model-2026-11-20",
+    "trainedAt": "2026-11-20T10:00:00Z",
+    "horizonDays": 3,
+    "message": "Modelo de machine learning ativo, validado por walk-forward.",
+    "predictions": [
+      {
+        "date": "2026-11-24",
+        "temperature": 28.1,
+        "temperatureLow": 26.4,
+        "temperatureHigh": 29.8,
+        "humidity": 63.0,
+        "humidityLow": 58.0,
+        "humidityHigh": 68.0
+      },
+      {
+        "date": "2026-11-25",
+        "temperature": 28.8,
+        "temperatureLow": 27.0,
+        "temperatureHigh": 30.6,
+        "humidity": 61.0,
+        "humidityLow": 56.0,
+        "humidityHigh": 66.0
+      },
+      {
+        "date": "2026-11-26",
+        "temperature": 29.4,
+        "temperatureLow": 27.5,
+        "temperatureHigh": 31.3,
+        "humidity": 59.0,
+        "humidityLow": 54.0,
+        "humidityHigh": 64.0
+      }
+    ],
+    "metrics": {
+      "temperature": {
+        "mae": 0.84,
+        "rmse": 1.12,
+        "r2": 0.91,
+        "samples": 90
+      },
+      "humidity": {
+        "mae": 2.31,
+        "rmse": 3.02,
+        "r2": 0.87,
+        "samples": 90
+      }
+    },
+    "backtestDays": 30,
+    "confidenceLevel": 0.95
+  },
+  "modelStatus": {
+    "statisticalAvailable": true,
+    "statisticalMessage": "Modelo estatístico disponível.",
+    "mlEnabled": true,
+    "mlMinTrainDays": 60,
+    "completeDays": 120,
+    "activeModel": {
+      "modelId": "model-2026-11-20",
+      "algorithm": "random_forest",
+      "trainedAt": "2026-11-20T10:00:00Z",
+      "historyStart": "2026-07-01",
+      "historyEnd": "2026-11-19",
+      "trainingDays": 120,
+      "horizonDays": 3,
+      "targets": [
+        "temperature",
+        "humidity"
+      ],
+      "metrics": {
+        "temperature": {
+          "mae": 0.84,
+          "rmse": 1.12,
+          "r2": 0.91,
+          "samples": 90
+        },
+        "humidity": {
+          "mae": 2.31,
+          "rmse": 3.02,
+          "r2": 0.87,
+          "samples": 90
+        }
+      },
+      "candidates": [
+        {
+          "algorithm": "random_forest",
+          "selected": true,
+          "metrics": {
+            "temperature": {
+              "mae": 0.84,
+              "rmse": 1.12,
+              "r2": 0.91,
+              "samples": 90
+            },
+            "humidity": {
+              "mae": 2.31,
+              "rmse": 3.02,
+              "r2": 0.87,
+              "samples": 90
+            }
+          }
+        },
+        {
+          "algorithm": "gradient_boosting",
+          "selected": false,
+          "metrics": {
+            "temperature": {
+              "mae": 0.92,
+              "rmse": 1.19,
+              "r2": 0.89,
+              "samples": 90
+            },
+            "humidity": {
+              "mae": 2.54,
+              "rmse": 3.18,
+              "r2": 0.85,
+              "samples": 90
+            }
+          }
+        }
+      ],
+      "featureCount": 12,
+      "active": true
+    },
+    "storageDir": "/var/lib/agroclima/models",
+    "message": "Histórico suficiente para treinar modelos de machine learning."
+  },
+  "agronomy": {
+    "available": true,
+    "baseTemp": 10.0,
+    "upperTemp": 35.0,
+    "latitude": -9.4,
+    "cropCoefficient": 0.8,
+    "plantations": [
+      {
+        "plantationId": "bbbbbbbb-bbbb-4bbb-8bbb-000000000001",
+        "variety": "Uva Itália",
+        "field": "Talhão Norte",
+        "status": "GROWING",
+        "plantedAt": "2026-08-15",
+        "daysSincePlanting": 100,
+        "targetGdd": 1500.0,
+        "accumulatedGdd": 1120.0,
+        "gddProgressPercent": 74.7,
+        "harvest": {
+          "status": "PROJECTED",
+          "earliest": "2026-12-05",
+          "expected": "2026-12-12",
+          "latest": "2026-12-20"
+        },
+        "downyMildewRisk": "MODERATE",
+        "powderyMildewRisk": "LOW",
+        "recentHighRiskDays": 1,
+        "irrigation": {
+          "et0MmDay": 5.1,
+          "etcMmDay": 4.08,
+          "cropCoefficient": 0.8,
+          "vpdKpa": 1.42,
+          "recentDays": 7,
+          "message": "Demanda atmosférica estimada."
+        },
+        "completeDays": 120,
+        "message": null
+      }
+    ],
+    "assumptions": [
+      "Sem sensor de chuva ou umidade do solo."
+    ],
+    "message": null
+  },
+  "market": {
+    "available": false,
+    "source": null,
+    "message": "Nenhuma fonte de mercado está configurada; a API não retorna valores demonstrativos.",
+    "series": []
+  },
+  "comparison": {
+    "available": true,
+    "climateMetrics": {
+      "temperature": {
+        "current": 27.4,
+        "average": 24.6,
+        "minimum": 21.2,
+        "maximum": 27.4,
+        "unit": "°C",
+        "samples": 3
+      },
+      "humidity": {
+        "current": 64.0,
+        "average": 70.7,
+        "minimum": 64.0,
+        "maximum": 78.0,
+        "unit": "%",
+        "samples": 3
+      }
+    },
+    "plantationsByVariety": [
+      {
+        "variety": "Uva Itália",
+        "plantations": 1,
+        "plants": 1200,
+        "growing": 1,
+        "harvested": 0
+      },
+      {
+        "variety": "Crimson Seedless",
+        "plantations": 1,
+        "plants": 850,
+        "growing": 1,
+        "harvested": 0
+      },
+      {
+        "variety": "Thompson Seedless",
+        "plantations": 1,
+        "plants": 600,
+        "growing": 0,
+        "harvested": 1
+      }
+    ],
+    "limitation": "O clima é agregado por canal e não é associado a variedades."
+  },
+  "quality": {
+    "available": true,
+    "totalRecords": 120,
+    "validRecords": 112,
+    "reviewRecords": 6,
+    "rejectedRecords": 2,
+    "completenessPercent": 93.3
+  },
+  "integrationStatus": {
+    "configured": true,
+    "channelId": "3141592",
+    "message": "Canal ThingSpeak configurado no ambiente."
+  },
+  "health": {
+    "status": "UP",
+    "service": "agroclima-analytics",
+    "javaApiConfigured": true,
+    "internalKeyConfigured": true
+  },
+  "roles": [
+    {
+      "key": "PRODUCER",
+      "label": "Produtor/Exportador",
+      "description": "Produtor/Exportador",
+      "permissionKeys": [
+        "overview.view",
+        "plantations.manage",
+        "monitoring.view",
+        "analytics.view",
+        "reports.view"
+      ]
+    },
+    {
+      "key": "ANALYST",
+      "label": "Analista de Dados",
+      "description": "Analista de Dados",
+      "permissionKeys": [
+        "overview.view",
+        "plantations.read.all",
+        "monitoring.view",
+        "analytics.view",
+        "reports.view",
+        "integrations.manage",
+        "models.manage"
+      ]
+    },
+    {
+      "key": "ADMIN",
+      "label": "Administrador",
+      "description": "Administrador",
+      "permissionKeys": [
+        "overview.view",
+        "plantations.manage",
+        "plantations.read.all",
+        "monitoring.view",
+        "analytics.view",
+        "models.manage",
+        "reports.view",
+        "users.manage",
+        "rbac.manage",
+        "security.manage",
+        "logs.read",
+        "settings.manage",
+        "design.manage",
+        "integrations.manage"
+      ]
+    }
+  ],
+  "permissions": [
+    {
+      "key": "overview.view",
+      "label": "Ver painéis e visão geral",
+      "area": "Painéis"
+    },
+    {
+      "key": "plantations.manage",
+      "label": "Cadastrar e acompanhar plantações",
+      "area": "Plantações"
+    },
+    {
+      "key": "plantations.read.all",
+      "label": "Consultar plantações de todos os produtores",
+      "area": "Plantações"
+    },
+    {
+      "key": "monitoring.view",
+      "label": "Consultar monitoramento climático",
+      "area": "Monitoramento"
+    },
+    {
+      "key": "analytics.view",
+      "label": "Consultar análises e modelos",
+      "area": "Análises"
+    },
+    {
+      "key": "models.manage",
+      "label": "Treinar e remover modelos preditivos",
+      "area": "Modelos Preditivos"
+    },
+    {
+      "key": "reports.view",
+      "label": "Consultar e gerar relatórios",
+      "area": "Relatórios"
+    },
+    {
+      "key": "users.manage",
+      "label": "Consultar e gerenciar usuários",
+      "area": "Usuários"
+    },
+    {
+      "key": "rbac.manage",
+      "label": "Gerenciar papéis e permissões",
+      "area": "Permissões e RBAC"
+    },
+    {
+      "key": "security.manage",
+      "label": "Consultar políticas de segurança",
+      "area": "Segurança"
+    },
+    {
+      "key": "logs.read",
+      "label": "Consultar registros de auditoria",
+      "area": "Logs do Sistema"
+    },
+    {
+      "key": "settings.manage",
+      "label": "Alterar configurações do sistema",
+      "area": "Configurações"
+    },
+    {
+      "key": "design.manage",
+      "label": "Visualizar e personalizar o design system",
+      "area": "Design System"
+    },
+    {
+      "key": "integrations.manage",
+      "label": "Consultar integrações",
+      "area": "Integrações"
+    }
+  ],
+  "auditEvents": [
+    {
+      "id": "cccccccc-cccc-4ccc-8ccc-000000000001",
+      "user": "Carlos Almeida",
+      "email": "admin@agroclima.com",
+      "action": "Iniciou sessão",
+      "resource": "Sessão",
+      "occurredAt": "2026-11-23T09:00:00Z",
+      "source": "API Java",
+      "status": "Concluído",
+      "details": "Login com e-mail e senha."
+    },
+    {
+      "id": "cccccccc-cccc-4ccc-8ccc-000000000002",
+      "user": "Mariana Costa",
+      "email": "produtor@agroclima.com",
+      "action": "Iniciou sessão",
+      "resource": "Sessão",
+      "occurredAt": "2026-11-23T08:40:00Z",
+      "source": "API Java",
+      "status": "Concluído",
+      "details": "Login com e-mail e senha."
+    },
+    {
+      "id": "cccccccc-cccc-4ccc-8ccc-000000000003",
+      "user": "Mariana Costa",
+      "email": "produtor@agroclima.com",
+      "action": "Cadastrou plantação",
+      "resource": "Plantações",
+      "occurredAt": "2026-11-22T14:10:00Z",
+      "source": "API Java",
+      "status": "Concluído",
+      "details": "Uva Itália · 1.200 plantas · Talhão Norte."
+    },
+    {
+      "id": "cccccccc-cccc-4ccc-8ccc-000000000004",
+      "user": "Carlos Almeida",
+      "email": "admin@agroclima.com",
+      "action": "Atualizou configurações",
+      "resource": "Configurações",
+      "occurredAt": "2026-11-22T11:30:00Z",
+      "source": "API Java",
+      "status": "Concluído",
+      "details": "Preferências do sistema atualizadas."
+    },
+    {
+      "id": "cccccccc-cccc-4ccc-8ccc-000000000005",
+      "user": "Rafael Nunes",
+      "email": "analista@agroclima.com",
+      "action": "Gerou relatório CSV",
+      "resource": "Relatórios",
+      "occurredAt": "2026-11-21T17:45:00Z",
+      "source": "API Java",
+      "status": "Concluído",
+      "details": "Exportação de indicadores disponíveis nas APIs."
+    },
+    {
+      "id": "cccccccc-cccc-4ccc-8ccc-000000000006",
+      "user": "Rafael Nunes",
+      "email": "analista@agroclima.com",
+      "action": "Tentou acessar área restrita",
+      "resource": "Sessão",
+      "occurredAt": "2026-11-21T16:00:00Z",
+      "source": "API Java",
+      "status": "Falhou",
+      "details": "Permissão insuficiente para a área de Usuários."
+    }
+  ]
+}
