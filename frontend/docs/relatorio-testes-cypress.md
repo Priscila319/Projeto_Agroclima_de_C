@@ -195,6 +195,44 @@ Todos os casos abaixo foram **executados** e **aprovados** em 23/11/2026.
 - Estados de erro 401, 403, 500 e falha de rede exibidos com mensagens claras, mantendo o shell e a sessão quando o erro não é de autenticação.
 - Layout responsivo: sidebar fixa no desktop, menu sobreposto com overlay no mobile, tabelas com rolagem horizontal e login utilizável em 390 × 844.
 
+### 4.2 Evidências visuais
+
+As capturas abaixo foram geradas durante a execução dos casos correspondentes no runner headless, em **23/11/2026**. As telas desktop usam 1440 × 900; as telas mobile usam 390 × 844. A configuração oficial do Cypress mantém `screenshotOnRunFailure: true` para capturar automaticamente qualquer falha em `cypress/screenshots/`; as imagens de sucesso abaixo são evidências complementares da execução.
+
+| Evidência | Caso relacionado | Conteúdo |
+|---|---|---|
+| `01-login.png` | CT-01.1 | Tela de login institucional, sem opção de autocadastro |
+| `02-visao-geral-produtor.png` | CT-01.5, CT-02.1 | Visão Geral do produtor com dados da API e menu do perfil |
+| `03-cadastro-plantacao.png` | CT-02.3 | Plantação “Sweet Globe” cadastrada e tabela atualizada |
+| `04-dashboard-analitico.png` | CT-03.1 | Dashboard Analítico com clima, plantações e qualidade |
+| `05-admin-usuarios.png` | CT-04.2 | Usuários e status retornados pela API Java |
+| `06-menu-mobile.png` | CT-06.8 | Menu lateral aberto em viewport móvel (390 × 844) |
+| `07-login-mobile.png` | CT-06.10 | Login utilizável em viewport móvel, sem quebra de layout |
+
+**Tela de login (desktop)**
+
+<img src="evidencias/01-login.png" alt="Tela de login do AgroClima Cloud" width="760">
+
+**Visão Geral do produtor**
+
+<img src="evidencias/02-visao-geral-produtor.png" alt="Visão Geral do produtor com indicadores da API" width="760">
+
+**Cadastro de plantação**
+
+<img src="evidencias/03-cadastro-plantacao.png" alt="Plantação cadastrada na tabela do produtor" width="760">
+
+**Dashboard Analítico**
+
+<img src="evidencias/04-dashboard-analitico.png" alt="Dashboard Analítico do perfil Analista de Dados" width="760">
+
+**Usuários (administrador)**
+
+<img src="evidencias/05-admin-usuarios.png" alt="Lista de usuários do painel administrativo" width="760">
+
+**Responsividade mobile**
+
+<img src="evidencias/06-menu-mobile.png" alt="Menu lateral aberto em viewport móvel" width="260"> <img src="evidencias/07-login-mobile.png" alt="Tela de login em viewport móvel" width="260">
+
 ---
 
 ## 5. Defeitos e observações
@@ -241,3 +279,4 @@ A suíte automatizada cobre os itens em escopo do Plano de Testes e obteve **100
 - `frontend/cypress/fixtures/api.json`
 - `frontend/cypress.config.js`
 - `frontend/package.json` (scripts `test:e2e`, `test:e2e:open`, `test:e2e:ci`)
+- `frontend/docs/evidencias/` — capturas de tela das principais telas e fluxos
