@@ -1,7 +1,7 @@
 # Relatório de Testes End-to-End — AgroClima Cloud
 
 **Projeto:** AgroClima Cloud — Projeto Integrador ADS  
-**Autora:** Priscila  
+**Equipe:** Priscila Barbosa, Leticia Gabrielle, André Costa, Caio Victor, Luciana Borges e Camila Pessoa  
 **Ferramenta:** Cypress + Google Chrome  
 **Data de execução:** 23/11/2026  
 **Versão:** 1.0  
