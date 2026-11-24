@@ -8,6 +8,9 @@
 **Responsável técnico:** Analista de QA / Automação  
 **Status:** Aprovado — 71/71 casos aprovados (100%)
 
+> **Versão para apresentação:** [`relatorio-apresentacao-cypress.docx`](./relatorio-apresentacao-cypress.docx) (Word) · [`relatorio-apresentacao-cypress.pdf`](./relatorio-apresentacao-cypress.pdf) (PDF) — resumo executivo, evidências e roteiro de demonstração.
+
+
 ---
 
 ## 1. Objetivo e escopo
